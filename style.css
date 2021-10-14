@@ -1,0 +1,17 @@
+:root {
+    --block-height: 300px;
+}
+
+.block-wrapper{
+    height: var(--block-height);
+}
+.img-wrapper img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+.carousel-item img {
+    height: var(--block-height);
+    object-fit: cover;
+    object-position: center;
+}

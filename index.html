@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaebalsia probovat sdelat --Bootstrap grid--</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-lg">
+<!-- row-1 -->
+        <div class="row align-items-center">
+            <div class="block-wrapper col-12 col-md-6 col-lg-3 border border-primary p-3">
+                <div class="card">
+                    <div class="card-body ">
+                      <h5 class="card-title">Card title</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg">
+                <div class="row">
+                    <div class="block-wrapper img-wrapper col-12 col-sm-7 col-md-12 col-lg-5 p-0">
+                        <img src="1.jpg" class="img-fluid">
+                    </div>
+                    <div class="block-wrapper img-wrapper col-12 col-sm col-md-12 col-lg p-0">
+                        <img src="2.jpg" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- row-2 -->
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <div class="row">
+                    <div class="block-wrapper col-12 col-sm-5 col-lg-6 border border-primary p-3">
+                        <h3>Block 4</h3>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem asperiores veniam nisi amet corporis sit corrupti nulla? Inventore mollitia iusto sequi laborum vero. Cumque aspernatur eius ad, quisquam veritatis voluptatibus?
+                        </p>  
+                    </div>
+                    <div class="block-wrapper col-12 col-sm col-lg-6 border border-primary p-3">
+                        <h3>Block 5</h3>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem asperiores veniam nisi amet corporis sit corrupti nulla? Inventore mollitia iusto sequi laborum vero. Cumque aspernatur eius ad, quisquam veritatis voluptatibus?
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="block-wrapper col-12 col-lg-6 border border-primary">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/4.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/5.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+
+    </div>
+<!-- JS bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
